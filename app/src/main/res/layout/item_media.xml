@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginEnd="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp">
+
+        <ImageView
+            android:id="@+id/imageMedia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/btnDownloadMedia"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_toStartOf="@id/btnDeleteMedia"
+        android:layout_marginEnd="4dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#007AFF"
+        android:src="@android:drawable/stat_sys_download"
+        android:elevation="5dp"
+        app:tint="#FFFFFF"/>
+
+    <ImageButton
+        android:id="@+id/btnDeleteMedia"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#FF3B30"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:elevation="5dp"
+        app:tint="#FFFFFF"/>
+
+</RelativeLayout>

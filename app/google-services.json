@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "500621312477",
+    "project_id": "chefmasterjrma",
+    "storage_bucket": "chefmasterjrma.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500621312477:android:323d5cd96c01a33ddfb634",
+        "android_client_info": {
+          "package_name": "com.example.chefmasterjrma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhMsxXOgjGY_S72gCDAgLWlAFwjk3FfgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
