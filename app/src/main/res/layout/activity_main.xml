@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editRecipeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Name (e.g., Spicy Ramen)"/>
+
+    <EditText
+        android:id="@+id/editRecipeContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:hint="Enter ingredients and steps here..."
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Recipe to Vault"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnViewVault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open My Vault"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnViewTrash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Trash"
+        android:backgroundTint="#9E9E9E"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
